@@ -1,0 +1,22 @@
+{
+  "name": "api-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.4",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "^7.15.4",
+    "graphql-yoga": "^1.18.3",
+    "mongoose": "^6.0.4",
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js --exec babel-node"
+  },
+  "keywords": [],
+  "author": "Cristian Gomez",
+  "license": "ISC"
+}

@@ -1,0 +1,23 @@
+type Query {
+    saludar: String!
+    books: [Book!]!
+}
+
+type Mutation {
+    createBook(
+        title:String!,
+        author:String!,
+        content: String!,
+        img:String,
+        year:Int
+    ):Book
+}
+
+type Book {
+    _id: ID!
+    title: String!
+    author: String!
+    content: String!
+    img: String
+    year: Int!
+}
